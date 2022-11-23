@@ -1,0 +1,47 @@
+nav {
+  display: flex;
+  position: relative;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--dark-grayish-blue);
+  font-size: 1.1rem;
+}
+
+.logo {
+  padding: 1rem;
+}
+
+nav ul {
+  display: none;
+}
+
+.burger {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+
+@media screen and (min-width: 900px) {
+  nav ul {
+    display: flex;
+  }
+
+  .logo {
+    padding: 2rem 1rem;
+  }
+
+  nav li {
+    margin: 1rem;
+  }
+
+  .burger {
+    display: none;
+  }
+}

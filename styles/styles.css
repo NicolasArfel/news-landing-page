@@ -13,6 +13,7 @@ body {
   font-size: 15px;
   font-family: 'Inter', sans-serif;
   background-color: var(--off-white);
+  width: 100%;
 }
 
 .attribution {
