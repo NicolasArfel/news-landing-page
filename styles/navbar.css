@@ -15,6 +15,10 @@ nav a {
   color: black;
   margin-left: 2rem;
 }
+
+nav a:hover {
+  color: var(--soft-red);
+}
 nav li {
   width: 100%;
   margin: 1rem 0;

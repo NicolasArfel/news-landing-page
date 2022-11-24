@@ -43,6 +43,7 @@ h2 {
 h3 {
   font-size: 1.1rem;
   font-weight: 800;
+  cursor: pointer;
 }
 
 button {
@@ -53,6 +54,11 @@ button {
   font-weight: 600;
   border: none;
   padding: 1rem 2rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--very-dark-blue);
 }
 
 .attribution {
