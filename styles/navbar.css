@@ -3,7 +3,7 @@ nav {
   position: relative;
   width: 100%;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between !important;
   max-width: 800px;
   margin: auto;
 }
@@ -12,24 +12,46 @@ nav a {
   text-decoration: none;
   color: var(--dark-grayish-blue);
   font-size: 1.1rem;
+  color: black;
+  margin-left: 2rem;
+}
+nav li {
+  width: 100%;
+  margin: 1rem 0;
 }
 
 .logo {
   margin: 2rem 1rem;
 }
 
-nav ul {
+.links {
   display: none;
+  z-index: 4;
 }
 
 .burger {
   position: absolute;
   top: 40px;
   right: 20px;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.active {
+  width: 75%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  background-color: var(--off-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 100%;
+  right: 0;
 }
 
 @media screen and (min-width: 900px) {
-  nav ul {
+  .links {
     display: flex;
   }
 
