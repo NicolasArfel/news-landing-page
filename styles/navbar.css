@@ -19,6 +19,7 @@ nav a {
 nav a:hover {
   color: var(--soft-red);
 }
+
 nav li {
   width: 100%;
   margin: 1rem 0;
@@ -76,6 +77,7 @@ nav li {
   nav {
     max-width: 1200px;
   }
+
   .logo {
     margin-left: 0;
   }

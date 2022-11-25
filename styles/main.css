@@ -43,6 +43,7 @@ article {
 article h3:hover {
   color: var(--soft-red);
 }
+
 article p {
   margin: 0;
 }
@@ -73,15 +74,18 @@ article p {
   .first__article-img {
     background-image: url('../assets/images/image-web-3-desktop.jpg');
   }
+
   .first__article {
     margin: auto;
     max-width: 800px;
   }
+
   .first__article-content {
     margin-top: 1rem;
     display: flex;
     justify-content: space-between;
   }
+
   .first__article-description,
   .first__article h1 {
     max-width: 45%;
@@ -117,6 +121,7 @@ article p {
   .first__article {
     margin: auto 0;
   }
+
   .news {
     margin: 0;
   }
